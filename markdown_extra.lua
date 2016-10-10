@@ -8,13 +8,25 @@ local fm_token_end = "-->"
 local function fetchMetadata(fullText)
     local metadata 
     local justMarkdown
+    local status
     local ts_pos_start, ts_pos_end = string.find(fullText, fm_token_start)
     local te_pos_start, te_pos_end = string.find(fullText, fm_token_end)
 
-    metadata = string.sub(fullText, ts_pos_end+2, te_pos_start-1)
-    justMarkdown = string.sub(fullText, te_pos_end+2, #fullText)
+    if ts_pos_start ~= nil and ts_pos_end ~= nil and te_pos_start ~= nil and te_pos_end ~= nil then
+        metadata = string.sub(fullText, ts_pos_end+2, te_pos_start-1)
 
-    metadata = yaml.load(metadata)
+        status, metadata = pcall(yaml.load, metadata)
+
+        if not status then
+            metadata = nil
+        end
+
+        justMarkdown = string.sub(fullText, te_pos_end+2, #fullText)
+    else
+        metadata = nil
+        justMarkdown = fullText
+    end 
+
 
     return {metadata = metadata, markdown = justMarkdown}
 end

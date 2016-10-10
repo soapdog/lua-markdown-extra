@@ -18,5 +18,7 @@ end
 
 local html, metadata = mde.from_file("test.md")
 
-tprint(metadata)
+if metadata then
+    tprint(metadata)
+end 
 print(html)
