@@ -26,6 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda p
 You can process it with ```markdown_extra.from_file(filePath)``` or ```markdown_extra.from_string(stringContent)``` both functions return two values ```html, metadata```:
 
 ```
+local mde = require "markdown_extra"
 local html, metadata = mde.from_file("test.md")
 ```
 
