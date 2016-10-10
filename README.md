@@ -31,4 +31,16 @@ local html, metadata = mde.from_file("test.md")
 
 The ```html``` will contain your processed markdown, the ```metadata``` will be a table with your metadata.
 
+## API
+
+### markdown_extra.from_file(path)
+Process the file specified by ```path``` and returns both html and metadata.
+
+### markdown_extra.from_string(stringContent)
+Process the content specified by ```stringContent``` and returns both html and metadata.
+
+### markdown_extra.set_metadata_delimiters(startDelimiter, endDelimiter)
+Change the delimiters used to find the metadata at the start of the markdown content. The default values are ```<!--``` and ```-->```.
+
+
 
