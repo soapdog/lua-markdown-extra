@@ -30,7 +30,7 @@ local mde = require "markdown_extra"
 local html, metadata = mde.from_file("test.md")
 ```
 
-The ```html``` will contain your processed markdown, the ```metadata``` will be a table with your metadata.
+The ```html``` will contain your processed markdown, the ```metadata``` will be a table with your metadata. The metadata frontmatter needs to be in [YAML](http://yaml.org) format. If you have an error in your frontmatter, the ```metadata``` variable will be ```nil```.
 
 ## API
 
