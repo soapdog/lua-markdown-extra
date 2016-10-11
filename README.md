@@ -1,4 +1,5 @@
 # lua-markdown-extra
+[![Build Status](https://travis-ci.org/soapdog/lua-markdown-extra.svg?branch=master)](https://travis-ci.org/soapdog/lua-markdown-extra)
 A rock that is able to process markdown files with metadata
 
 ## Instalation
