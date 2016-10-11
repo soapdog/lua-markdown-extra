@@ -14,6 +14,8 @@ before_install:
   - export PATH=$PATH:$PWD/lua_install/bin
 
 install:
+  - luarocks install markdown
+  - luarocks install yaml
   - luarocks install luacheck
   - luarocks install busted
   - luarocks install luacov
