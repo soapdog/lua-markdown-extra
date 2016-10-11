@@ -1,5 +1,10 @@
 # lua-markdown-extra
-[![Build Status](https://travis-ci.org/soapdog/lua-markdown-extra.svg?branch=master)](https://travis-ci.org/soapdog/lua-markdown-extra)
+[![Build Status](https://travis-ci.org/soapdog/lua-markdown-extra.svg?branch=master)](https://travis-ci.org/soapdog/lua-markdown-extra) 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/soapdog/lua-markdown-extra/master/LICENSE)
+[![LuaRocks](https://img.shields.io/badge/LuaRocks-0.3-blue.svg)](https://luarocks.org/modules/soapdog/lua-markdown-extra)
+[![Lua](https://img.shields.io/badge/Lua-5.1%2C%20JIT%2C%205.2-blue.svg)](https://img.shields.io/badge/Lua-5.1%2C%20JIT%2C%205.2-blue.svg)
+[![GitHub issues](https://img.shields.io/github/issues/soapdog/lua-markdown-extra.svg)](https://github.com/soapdog/lua-markdown-extra/issues)
+[![GitHub stars](https://img.shields.io/github/stars/soapdog/lua-markdown-extra.svg)](https://github.com/soapdog/lua-markdown-extra/stargazers)
 
 A rock that is able to process markdown files with metadata
 
