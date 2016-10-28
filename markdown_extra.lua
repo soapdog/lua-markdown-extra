@@ -5,7 +5,7 @@ local markdown_extra = {
     _LICENSE = "MIT"
 }
 
-local markdown = require "discount"
+local cmark = require "cmark"
 local yaml = require "yaml"
 
 local fm_token_start = "<!--"
@@ -51,7 +51,8 @@ end
 
 function markdown_extra.from_string(text)  
     local src = fetchMetadata(text)
-    local html = markdown(src.markdown)
+    local doc = cmark.parse_string(src.markdown, cmark.OPT_DEFAULT)
+    local html = cmark.render_html(doc, cmark.OPT_DEFAULT)
     return html, src.metadata
 end
 

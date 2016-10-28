@@ -1,5 +1,5 @@
 package = "lua-markdown-extra"
-version = "0.4-1"
+version = "0.4-2"
 source = {
    url = "git://github.com/soapdog/lua-markdown-extra",
    tag = "v0.4"
@@ -11,7 +11,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1",
-   "lua-discount",
+   "cmark",
    "yaml"
 }
 build = {
