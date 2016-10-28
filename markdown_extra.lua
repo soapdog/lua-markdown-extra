@@ -4,7 +4,8 @@ local markdown_extra = {
     _URL = "https://github.com/soapdog/lua-markdown-extra",
     _LICENSE = "MIT"
 }
-local markdown = require "markdown"
+
+local markdown = require "discount"
 local yaml = require "yaml"
 
 local fm_token_start = "<!--"

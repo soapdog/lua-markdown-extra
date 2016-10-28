@@ -5,6 +5,7 @@
 [![Lua](https://img.shields.io/badge/Lua-5.1%2C%20JIT%2C%205.2-blue.svg)](https://img.shields.io/badge/Lua-5.1%2C%20JIT%2C%205.2-blue.svg)
 [![GitHub issues](https://img.shields.io/github/issues/soapdog/lua-markdown-extra.svg)](https://github.com/soapdog/lua-markdown-extra/issues)
 [![GitHub stars](https://img.shields.io/github/stars/soapdog/lua-markdown-extra.svg)](https://github.com/soapdog/lua-markdown-extra/stargazers)
+[![GitHub release](https://img.shields.io/github/release/soapdog/lua-markdown-extra.svg?maxAge=2592000)]()
 
 A rock that is able to process markdown files with metadata
 
