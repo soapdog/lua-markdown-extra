@@ -38,7 +38,6 @@ para
 local htmlProof = [[
 
 <h1>h1</h1>
-
 <p>para</p>    
 
 ]]
