@@ -60,9 +60,9 @@ end
 
 function markdown_extra.enable_unsafe(yes)
     if yes then
-        unsafe = cmark.OPT_UNSAFE
+        opts = cmark.OPT_UNSAFE
     else
-        unsafe = cmark.OPT_DEFAULT
+        opts = cmark.OPT_DEFAULT
     end
 end
 
