@@ -51,6 +51,9 @@ Process the content specified by ```stringContent``` and returns both html and m
 ### markdown_extra.set_metadata_delimiters(startDelimiter, endDelimiter)
 Change the delimiters used to find the metadata at the start of the markdown content. The default values are ```<!--``` and ```-->```.
 
+### markdown_extra.enable_unsafe(yes)
+Change the options for `cmark` from `OPT_DEFAULT` to `OPT_UNSAFE`
+
 ## Testing
 I am using ```busted``` for testing. You can check our test spec inside the ```spec``` folder.
 
