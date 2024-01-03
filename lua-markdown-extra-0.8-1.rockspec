@@ -1,8 +1,8 @@
 package = "lua-markdown-extra"
-version = "0.4-1"
+version = "0.8-1"
 source = {
    url = "git://github.com/soapdog/lua-markdown-extra",
-   tag = "v0.4"
+   tag = "v0.8"
 }
 description = {
    homepage = "https://github.com/soapdog/lua-markdown-extra",

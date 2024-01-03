@@ -1,5 +1,5 @@
 local markdown_extra = {
-    _VERSION = "markdown_extra v0.4",
+    _VERSION = "markdown_extra v0.8",
     _DESCRIPTION = "A rock that is able to process markdown files with metadata",
     _URL = "https://github.com/soapdog/lua-markdown-extra",
     _LICENSE = "MIT"
