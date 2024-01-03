@@ -64,5 +64,6 @@ function markdown_extra.enable_unsafe(yes)
     else
         unsafe = cmark.OPT_DEFAULT
     end
+end
 
 return markdown_extra
